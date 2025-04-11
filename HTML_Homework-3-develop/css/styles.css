@@ -39,11 +39,17 @@ address {
   margin: 0 auto;
   width: 1170px;
 }
-
+ .section {
+  padding: 94px, 0;
+ }
 /* #region HEADER */
 .header {
   border-color: #000;
 }
+.header-portfolio {
+  border: 1px solid #ececec;
+}
+
 .header-content {
   display: flex;
   justify-content: space-between;
@@ -328,9 +334,16 @@ address {
 
 /* #endregion */
 
-.practices-item {
+.div-practice {
+
+  width: 1170px;
+}
+
+.section-practice {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .footer {
