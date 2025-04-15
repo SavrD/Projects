@@ -39,9 +39,9 @@ address {
   margin: 0 auto;
   width: 1170px;
 }
- .section {
+.section {
   padding: 94px, 0;
- }
+}
 /* #region HEADER */
 .header {
   border-color: #000;
@@ -290,8 +290,6 @@ address {
 
 /* #region TEAM */
 
-
-
 .section-team {
   padding: 94px;
 
@@ -335,15 +333,30 @@ address {
 /* #endregion */
 
 .div-practice {
-
-  width: 1170px;
+ margin: 0 auto;
+ width: 1170px;
 }
 
 .section-practice {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 20px;
+  padding-bottom: 94px;
+
+}
+
+.practices-item {
+  border: 1px solid #eeeeee;
+}
+
+.practices-name {
+  padding-top: 20px;
+  padding-left: 24px;
+  padding-bottom: 4px;
+}
+.practices-role {
+  padding-left: 24px;
+  padding-bottom: 20px;
 }
 
 .footer {
