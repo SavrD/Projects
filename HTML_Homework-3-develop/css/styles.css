@@ -3,6 +3,16 @@ html {
   font-family: "Roboto", sans-serif;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+img {
+  display: block;
+}
+
 body,
 ul,
 ol,
@@ -186,6 +196,7 @@ address {
   color: #ffffff;
   background-color: #2294f1;
   border: none;
+  border-radius: 4px;
   text-align: center;
   cursor: pointer;
 }
@@ -288,16 +299,17 @@ address {
 .section-team {
   background-color: #f5f4fa;
 }
-.container-team {
-  margin: 0 auto;
-  width: 1170px;
-}
+
 .team-list {
   display: flex;
   justify-content: center;
   gap: 30px;
 }
 
+.container-person {
+  padding: 30px 0;
+
+}
 .team-item {
   margin: 0;
   border-bottom-left-radius: 4px;
@@ -311,7 +323,7 @@ address {
 }
 
 .person-name {
-  margin: 30px 0 10px;
+  margin-bottom: 10px;
   text-align: center;
   color: #212121;
   font-size: 16px;
@@ -320,7 +332,6 @@ address {
 }
 
 .person-role {
-  margin-bottom: 30px;
   color: #757575;
   text-align: center;
   font-size: 16px;
@@ -350,6 +361,8 @@ address {
  
  .practices-item {
    border: 1px solid #eeeeee;
+   width: 368px;
+   box-sizing: border-box;
  }
  
  .practices-name {
@@ -408,3 +421,4 @@ address {
 }
 
 /* #endregion */
+
